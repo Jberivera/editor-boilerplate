@@ -30,7 +30,7 @@ var previewHTML = '' +
         '\t\t\t\t//plane.receiveShadow = true;\n' +
         '\n' +
         '\t\t\t\tplane.rotation.x = -0.5 * Math.PI;\n' +
-        '\t\t\t\tplane.position.x = 0;\n' +
+        '\t\t\t\tplane.position.x = 15;\n' +
         '\t\t\t\tplane.position.z = 0;\n' +
         '\t\t\t\tplane.position.y = 0;\n' +
         '\t\t\t\tscene.add(plane);\n' +
