@@ -1,0 +1,49 @@
+html, body {
+  height: 100%;
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+}
+
+#editor {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+.preview {
+  position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#editor .CodeMirror {
+  font-size: 16px;
+  height: 100%;
+  background-color: rgba(255,255,255,0.3);
+}
+
+#editor .CodeMirror div.CodeMirror-selected {
+  background: rgba(0,0,0,0.1);
+}
+
+#editor .CodeMirror-focused div.CodeMirror-selected {
+  background: rgba(0,0,255,0.1);
+}
+
+#editor .CodeMirror .errorLine {
+  background: rgba(255,0,0,0.25);
+}
